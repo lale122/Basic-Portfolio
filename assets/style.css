@@ -1,0 +1,164 @@
+ body{
+    background-image: url("/images/sekil.png");
+   
+ }
+ header{
+     background-color: #ffffff;
+     border-color: #f6f6f6;
+     height: 65px;
+}
+ 
+.form{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.contact{
+    width: 500px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    
+}
+.con{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+input,label,textarea{
+    margin: 10px;
+    width: 470px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+}
+h1{
+    background-color:  #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size:x-large;
+    float: left;
+ }
+ h2{
+     padding: 20px;
+     color: #4aaaa5;
+ }
+ hr{
+     color: #ffffff;
+     
+ }
+ nav{
+   display: block;
+   margin-left: 800px;
+  
+ }
+ nav .menu{
+    display: flex;
+    gap: 10px;
+    float: left;
+    padding-top: 20px;
+    
+}
+
+.about_me{
+    width: 500px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 150px;
+}
+.about_me p{
+    padding: 20px;
+}
+.about{
+    width: 500px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 500px;
+}
+.about img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    
+}
+.about p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.portfolio{
+    width: 500px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 700px;
+}
+.portfolio div img{
+    width: 220px;
+    position: relative;
+}
+.lent{
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 40px;
+    z-index: 100;
+    position: absolute;
+    
+    bottom: 50px;
+
+}
+.lent p{
+    text-align: center;
+    padding: 10px;
+}
+.portfolio div{
+    position: relative;
+}
+.sekil_lent{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.connect{
+     width: 220px;
+     border: 1px solid #ffffff;
+     margin-top: 50px;
+     padding: 10px;
+     background-color: #ffffff;
+     position: relative;
+     margin-left: 800px;
+ }
+footer{
+     border-top: 5px solid #4aaaa5;
+     padding: 20px;
+     text-align: center;
+     background-color: gray;
+     position: fixed;
+     margin-top: 500px;
+     width: 100%;
+     bottom: 0px;
+      
+ }
