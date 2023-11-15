@@ -4,8 +4,13 @@
  }
  header{
      background-color: #ffffff;
-     border-color: #f6f6f6;
+     border-color: hsl(0, 0%, 96%);
      height: 65px;
+     position: sticky;
+     top: 0px;
+     z-index: 200;
+     width: 100%;
+     
 }
  
 .form{
@@ -58,18 +63,28 @@ h1{
      
  }
  nav{
-   display: block;
+   
    margin-left: 800px;
+  padding: 0px;
   
  }
- nav .menu{
-    display: flex;
-    gap: 10px;
-    float: left;
+.menu{
+   
+    
+    
     padding-top: 20px;
+    list-style-type: none;
     
 }
-
+ ul li{
+    display: inline-block;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+    padding-right: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+ }
 .about_me{
     width: 500px;
     border: 1px solid #ffffff;
